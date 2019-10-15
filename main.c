@@ -2,7 +2,7 @@
 #include <stdlib.h>
 main()
 {
-	int ar[20],ch,v,flag=0;
+	int ch,v,flag=0;
 	while(flag==0)
 	{
 		printf("\nEnter 1 for Enqueue,\tEnter 2 for Dequeue,\tEnter 3 for Display,\tEnter 4 to exit");
