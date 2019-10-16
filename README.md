@@ -7,13 +7,13 @@ Theory:-
                   2)dequeue() − remove (access) an item from the queue.
 Algorithm:-
             1)Start
-            2)int stack[size],top=-1;
+            2int items[SIZE],rear=-1,front=-1;
             3)int push(int x){
-                      if(top==size-1){printf("Stack Overflow");}
-	                    else{top++;stack[top]=x;}}
+                      if(top==size-1){printf("Queue Full");}
+	                    else{top++;items[top]=x;}}
             4)int pop(){
-                      if(top==-1){printf("Stack Underflow");}
-                      else{stack[top]=0;top--;}}
+                      if(front==-1){printf("Queue Empty");}
+                      else{items[front]=0;rear--;}}
             5)void display(){"Statements"}
             6)int main(){int ch,v,flag=0;
                         while(flag==0){scanf("%d",&ch)};
